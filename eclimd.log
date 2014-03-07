@@ -1,0 +1,261 @@
+2013-11-08 21:11:05,284 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-08 21:11:05,285 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-08 21:11:05,286 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-08 21:11:05,294 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-08 21:11:05,297 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-08 21:11:05,389 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-08 21:11:05,392 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-08 21:11:05,395 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-08 21:11:05,397 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-08 21:11:05,398 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-08 21:11:05,398 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-08 21:26:33,150 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-08 21:26:33,167 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-08 21:26:33,168 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-08 21:26:33,169 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-08 21:26:33,169 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-08 21:26:54,632 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-08 21:26:54,634 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-08 21:26:54,634 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-08 21:26:54,641 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-08 21:26:54,644 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-08 21:26:54,729 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-08 21:26:54,732 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-08 21:26:54,734 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-08 21:26:54,735 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-08 21:26:54,735 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-08 21:26:54,736 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-08 21:32:01,850 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-08 21:32:01,862 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-08 21:32:01,864 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-08 21:32:01,864 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-08 21:32:01,864 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-08 21:32:29,187 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-08 21:32:29,189 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-08 21:32:29,189 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-08 21:32:29,200 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-08 21:32:29,204 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-08 21:32:29,465 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-08 21:32:29,469 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-08 21:32:29,471 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-08 21:32:29,474 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-08 21:32:29,474 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-08 21:32:29,475 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-08 21:48:00,939 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-08 21:48:00,953 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-08 21:48:00,957 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-08 21:48:00,958 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-08 21:48:00,958 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-08 21:48:22,401 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-08 21:48:22,472 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-08 21:48:22,472 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-08 21:48:22,481 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-08 21:48:22,483 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-08 21:48:22,597 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-08 21:48:22,600 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-08 21:48:22,602 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-08 21:48:22,604 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-08 21:48:22,604 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-08 21:48:22,604 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-08 21:57:44,411 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-08 21:57:44,423 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-08 21:57:44,427 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-08 21:57:44,427 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-08 21:57:44,427 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-08 22:04:51,446 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-08 22:04:51,447 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-08 22:04:51,447 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-08 22:04:51,455 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-08 22:04:51,458 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-08 22:04:51,542 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-08 22:04:51,545 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-08 22:04:51,547 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-08 22:04:51,548 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-08 22:04:51,549 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-08 22:04:51,549 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-08 22:09:37,794 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-08 22:09:37,807 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-08 22:09:37,809 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-08 22:09:37,809 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-08 22:09:37,810 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-08 22:09:47,508 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-08 22:09:47,510 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-08 22:09:47,511 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-08 22:09:47,517 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-08 22:09:47,520 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-08 22:09:47,618 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-08 22:09:47,621 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-08 22:09:47,623 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-08 22:09:47,624 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-08 22:09:47,625 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-08 22:09:47,625 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-09 00:09:42,852 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-09 00:09:42,866 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-09 00:09:42,869 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-09 00:09:42,870 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-09 00:09:42,870 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-09 12:02:56,970 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-09 12:02:56,972 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-09 12:02:56,972 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-09 12:02:56,984 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-09 12:02:56,988 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-09 12:02:57,078 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-09 12:02:57,081 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-09 12:02:57,083 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-09 12:02:57,084 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-09 12:02:57,084 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-09 12:02:57,085 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-09 18:03:34,229 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-09 18:03:34,241 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-09 18:03:34,245 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-09 18:03:34,245 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-09 18:03:34,246 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-10 12:33:39,053 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-10 12:33:39,072 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-10 12:33:39,072 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-10 12:33:39,085 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-10 12:33:39,090 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-10 12:33:39,276 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-10 12:33:39,280 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-10 12:33:39,287 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-10 12:33:39,297 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-10 12:33:39,297 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-10 12:33:39,298 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-10 14:29:54,382 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-10 14:29:54,434 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-10 14:29:54,438 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-10 14:29:54,439 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-10 14:29:54,439 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2013-11-10 19:32:46,288 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2013-11-10 19:32:46,315 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2013-11-10 19:32:46,316 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2013-11-10 19:32:46,324 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2013-11-10 19:32:46,326 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2013-11-10 19:32:46,588 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2013-11-10 19:32:46,591 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2013-11-10 19:32:46,593 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2013-11-10 19:32:46,622 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2013-11-10 19:32:46,623 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2013-11-10 19:32:46,623 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2013-11-10 21:36:09,085 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2013-11-10 21:36:09,098 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2013-11-10 21:36:09,123 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2013-11-10 21:36:09,124 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2013-11-10 21:36:09,124 INFO  [org.eclim.eclipse.EclimDaemon] Eclim stopped.
+2014-01-10 19:59:47,164 INFO  [org.eclim.eclipse.EclimDaemon] Workspace: E:/Java0833
+2014-01-10 19:59:47,190 INFO  [org.eclim.eclipse.EclimDaemon] Home: D:\SOFTWARE\Develop\eclipse\plugins\org.eclim_2.3.2\
+2014-01-10 19:59:47,190 INFO  [org.eclim.eclipse.EclimDaemon] Starting eclim...
+2014-01-10 19:59:47,210 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim
+2014-01-10 19:59:47,213 INFO  [org.eclim.eclipse.EclimDaemon] Loading plugin org.eclim.core
+2014-01-10 19:59:47,484 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2014-01-10 19:59:47,488 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.cdt
+2014-01-10 19:59:47,491 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2014-01-10 19:59:47,538 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2014-01-10 19:59:47,539 INFO  [org.eclim.eclipse.EclimDaemon] Loaded plugin org.eclim.core
+2014-01-10 19:59:47,539 INFO  [org.eclim.eclipse.EclimDaemon] Eclim Server Started on: 127.0.0.1:9091
+2014-01-10 19:59:48,159 INFO  [org.eclim.eclipse.EclimDaemon] Shutting down eclim...
+2014-01-10 19:59:48,172 INFO  [org.eclim.eclipse.EclimDaemon] Stopping plugin org.eclim.core
+2014-01-10 19:59:48,174 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.cdt
+2014-01-10 19:59:48,174 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2014-01-10 19:59:48,179 ERROR [org.eclim.eclipse.ui.EclimdView] Error stopping eclimd.
+org.osgi.framework.BundleException: Exception in org.eclim.plugin.core.CorePlugin.stop() of bundle org.eclim.core.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:791)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.stop(AbstractBundle.java:465)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.stop(AbstractBundle.java:457)
+	at org.eclim.eclipse.EclimDaemon.stop(EclimDaemon.java:178)
+	at org.eclim.eclipse.ui.EclimdView.dispose(EclimdView.java:75)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:226)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:392)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:877)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:857)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:179)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:142)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:82)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:460)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:144)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:908)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:828)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:823)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:808)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:109)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:899)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:828)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:823)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:808)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.handleEvent(PartRenderingEngine.java:153)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:290)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1166)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1069)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$5(StackRenderer.java:1051)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$11.close(StackRenderer.java:945)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1852)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:284)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.osgi.framework.BundleException: Exception in org.eclim.plugin.Plugin.stop() of bundle org.eclim.jdt.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:791)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.stop(AbstractBundle.java:465)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.stop(AbstractBundle.java:457)
+	at org.eclim.plugin.core.CorePlugin.stop(CorePlugin.java:144)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	... 82 more
+Caused by: java.lang.IllegalArgumentException: PluginResources not found for plugin 'org.eclim.jdt'.
+	at org.eclim.Services.getPluginResources(Services.java:170)
+	at org.eclim.plugin.Plugin.stop(Plugin.java:139)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	... 89 more
