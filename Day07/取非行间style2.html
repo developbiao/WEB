@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title>取非行间style</title>
+<style type="text/css">
+div {
+	margin: 0px;
+	padding: 0px;
+
+}
+#div1 {
+	width: 500px;
+	height: 200px;
+	background: red;
+	border: 5px dashed black;
+}
+</style>
+<script type="text/javascript">
+window.onload = function (){
+	oDiv = document.getElementById('div1');
+
+	//解决浏览器的兼容问题
+	if(oDiv.currentStyle){
+		alert('你使用的是IE浏览器:' + oDiv.currentStyle.width);
+	}
+	else{
+		alert('你使用的是很牛X的浏览器:'+ getComputedStyle(oDiv, false).width);
+	}
+
+};
+</script>
+</head>
+<body>
+	<div id="div1">
+		我是第二个DIV,来干我哇!
+	</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCYPTE HTML>
+<html>
+	<head>
+		<meta http-quiv="Content-type" Content="text/html" charset=utf-8/>
+			<link rel="stylesheet" href="style.css" type="text/css"/>
+		<style type="text/css">
+		
+		</style>
+		<title>Practice 8Day</title>
+	</head>
+	<body>
+		<center>		<h3 class=t5>现在我们就来看看效果</h3>  </center>
+		<p id=t5> this my font test</p>
+		<p class=t4> tom is cat </p>
+	</body>
+</html>

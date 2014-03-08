@@ -1,0 +1,22 @@
+*{font-family:"宋体"}
+body{color:gray}
+p,span{color:red}
+p#t{color:green}
+/*class 等于t1的段落*/
+p.t1{color:yellow}  
+p span{color:#00ff00;font-size:12pt}
+p#t.{color=0000ff;font-size:12pt}
+p.test{color:#ffbbaa;font-size:16pt}
+p#p hello span{color:#00bbaa;font-size:20pt}
+h3{color:blue;font-size=55pt}
+img.polaroid {
+    background:#000; /*Change this to a background image or remove*/
+    border:solid #fff;
+    border-width:6px 6px 20px 6px;
+    box-shadow:1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth *
+    -webkit-box-shadow:1px 1px 5px #333;
+    -moz-box-shadow:1px 1px 5px #333;
+    height:200px; /*Set to height of your image or desired div*/
+    width:200px; /*Set to width of your image or desired div*/
+}
+

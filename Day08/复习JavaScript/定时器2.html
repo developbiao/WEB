@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html";charset="utf-8" >
+	<meta charset="utf-8">
+	<title>定时器使用复习2</title>
+	<script type="text/javascript">
+	window.onload = function (){
+		var oBtn1 = document.getElementById('btn1');
+		var oBtn2 = document.getElementById('btn2');
+		var timer = null;
+
+		oBtn1.onclick = function (){
+			timer = setInterval(function (){
+				alert('Hello Moto!');
+			}, 2000);
+
+		};
+
+//清除Interval 使用的是 clearInterval();
+		oBtn2.onclick = function (){
+			clearInterval(timer);
+		};
+
+	};
+	</script>
+</head>
+<body>
+	<input id="btn1" type="button" value="开启" />
+	<input id="btn2" type="button" value="关闭" />
+</body>
+</html>

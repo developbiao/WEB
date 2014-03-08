@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+	<title>函数练习改变文字</title>
+	<script type="text/JavaScript">
+	function ChangeText(){
+		var oText = document.getElementById('txt1');
+		oText.title='看到文字改变没有啊？';
+		oText['value']='Hello Motorola!';
+	}
+	</script>
+</head>
+<body>
+	<input id="txt1" type="text" />
+	<input type="button" value="改变文字" onclick="ChangeText()" />
+</body>
+</html>

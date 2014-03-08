@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+		<meta Charset="utf-8" />
+		<title>getElementsByTagName</title>
+		<style type="text/css">
+		div {
+			width:200px;
+			height:200px;
+			border:1px solid black;
+			margin:10px 10px;
+			float:left;
+		}
+
+		</style>
+		<script type="text/JavaScript">
+			window.onload = function (){
+				var oDiv = document.getElementsByTagName('div');
+				//alert('长度为：' + oDiv.length);
+				//oDiv[0].style.background = '#FF00FF';
+				for(var i=0; i < oDiv.length; i++){
+					oDiv[i].style.background = '#FF00FF'
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div> 1 </div>
+		<div> 2 </div>
+		<div> 3 </div>
+		<div> 4 </div>
+		<div> 5 </div>
+		<div> 6 </div>
+	</body>
+</html>

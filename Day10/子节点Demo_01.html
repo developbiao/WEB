@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>子节点Demo01</title>
+	<style type="text/css">
+		ul li {height:50px; list-style:none; border: 5px dotted red}
+	</style>
+	<script type="text/javascript">
+	/**
+	Dom 的操作
+	Date:2014/03/03
+	Autho:GongBiao
+	*/
+	window.onload = function (){
+
+		var oUl = document.getElementById('ul1');
+		var oLi = oUl.getElementsByTagName('li');
+		//alert(oUl.childNodes.length);
+		for (var i=0; i<oUl.childNodes.length; i++){
+	//		alert(oUl.childNodes[i].nodeType);
+			if(oUl.childNodes[i].nodeType==1){
+				oUl.childNodes[i].style.background = '#ABCDEF';
+			}
+		}
+	};
+	</script>
+</head>
+<body>
+</body>
+<ul id="ul1">
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
+</html>

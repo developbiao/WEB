@@ -1,0 +1,62 @@
+@charset "utf-8";
+/*CSS Document*/
+* {padding: 0; margin: 0;}
+li {list-style: none;}
+body{background: #F6F9FC; font-family: arial;}
+
+.calendar {width: 210; 
+	margin: 50px auto 0; 
+	padding: 10px 10x 20px 20px; 
+	background: #eae9e9;}
+.calendar ul {width :210px;
+ overflow: hidden; 
+ padding-bottom : 10px};
+.calendar li {
+	float: left; 
+	width :58px; 
+	height: 54px; 
+	margin: 10px 10px 0 0; 
+	border: 1px solid #fff; 
+	text-align: center; 
+	cursor: pointer;
+}
+
+.calendar li h2 {
+	font-size: 20px;
+	padding-top: 5px;
+
+}
+.calendar li p {
+	font-size: 14px;
+}
+
+.calendar .active {
+	border:1px solid #424242; 
+	background : #fff; 
+	color: #e84a7e;
+}
+.calendar .active h2 {
+
+}
+.calendar .active p {
+	font-weight: bold;
+}
+.calendar .text {
+	width: 178px;
+	padding:0 10px 10px;
+	border: 1px solid #fff;
+	padding-top: 10px; 
+	background: #F1F1F1; color: #555;
+}
+.calendar .text h2 {
+	font-size : 14px;
+	 margin-bottom: 10px;
+}
+.calendar .text h2{
+	font-size: 14px;
+	margin-bottom:10px;
+}
+.calendar .text p {
+	font-size :120x; line-height: 18px;
+
+}

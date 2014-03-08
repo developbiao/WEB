@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8"/>
+	<title>DivDemo_01</title>
+	<style type="text/css">
+	#div1{
+		width:200px;
+		height:200px;
+		background:green;
+	}
+	</style>
+	<script type="text/JavaScript">
+	function toRed(){
+		var oDiv=document.getElementById('div1');
+		oDiv.style.width='200px';
+		oDiv.style.height='200px';
+		oDiv.style.background='red';
+	}
+	function toGreen(){
+		var oDiv=document.getElementById('div1');
+
+		oDiv.style.width='300px';
+		oDiv.style.height='300px';
+		oDiv.style.background='green';
+	}
+	function toGuee(){
+		var oDiv = document.getElementById('div1');
+		oDiv.style.width='100px';
+		oDiv.style.height='200px';
+		oDiv.style.background='#CCC';
+	}
+	</script>
+</head>
+<body>
+	<div id="div1" onmouseover="toGuee()" onmouseout="toGreen()">
+		问题在哪里呢？
+	</div>
+</body>
+</html>

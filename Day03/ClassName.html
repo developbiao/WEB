@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="html/text" charset="utf-8" />
+	<title>ClassName</title>
+	<style type="text/css">
+	#div1 {
+		width:200px;
+		height:200px;
+		border:1px solid black;
+	}
+	.box{
+		background:red;
+	}
+	.box2{
+		background:blue;
+		border:20x solid yellow;
+	}
+	</style>
+	<script type="text/JavaScript">
+	function toRed(){
+		var oDiv = document.getElementById('div1');
+
+		oDiv.className='box';
+		if(oDiv.className=='box'){
+			oDiv.className='box2';
+		alert('this is :1')
+		}
+		else{
+			oDiv.className='box';
+		alert('this is :2')
+		}
+	}
+	</script>
+</head>
+<body>
+	<input type="button" value="变红" onclick="toRed()" />
+	<div id="div1">
+	</div>
+</body>
+</html>

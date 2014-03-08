@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<title>argumnetDemo_01</title>
+<script type="text/javascript">
+window.onload = function (){
+
+	function sum (){
+
+		var result = 0;
+		for(var i=0; i<arguments.length; i++){
+			result += arguments[i];
+		}
+		return result;
+	}
+	alert('和是：' + sum(
+		77, 33, 22, 123, 23, 77, 23, 90, 21,
+		11, 32, 48, 88, 101, 22, 194, 897, 77
+		));
+
+};
+
+</script>
+</head>
+<body>
+</body>
+</html>

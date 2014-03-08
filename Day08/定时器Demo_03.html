@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+	<title>定时器Demo_3</title>
+	<script type="text/javascript">
+	var oDate = new Date();
+	function show(){
+		alert('I Love you !');
+	}
+	function getDay(){
+		alert(oDate.getDay());
+	}
+	//setTimeout(show, 3000);  //延时器的使用
+	setInterval(getDay(), 2000);
+	</script>
+</head>
+<body>
+	<h3>定时器使用03</h3>
+	<h3>三秒后我会说我爱你！</h3>
+</body>
+</html>

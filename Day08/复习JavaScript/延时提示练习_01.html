@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+	<title>延时提示练习01</title>
+	<style type="text/css">
+	#div1 {width: 50px; height: 50px; background:red}
+	#div2 {width: 250px; height: 180px; background:#CCC; display: none}
+	</style>
+	<script type="text/javascript">
+	window.onload = function (){
+
+		var oDiv1 = document.getElementById('div1');
+		var oDiv2 = document.getElementById('div2');
+
+		oDiv1.onmouseover = function (){
+			oDiv2.style.display = 'block';
+		};
+		oDiv1.onmouseout = function (){
+			oDiv2.style.display = 'none';
+		};
+
+	};
+	</script>
+</head>
+<body>
+	<div id="div1">
+	</div>
+	<div id="div2">
+	</div>
+
+</body>
+</html>

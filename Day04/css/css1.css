@@ -1,0 +1,21 @@
+@charset "utf-8"; 
+/*Documnet Css*/
+div {
+	width:200px;
+	height:200px;
+	font-size:24px;
+	font-width:bold;
+}
+#one{background:red; float:right; position:relative;}
+#two{background:green; position:absolute; top:250px; right:300px}
+#three{background:blue;float:right;}
+
+/*清除浮动代码*/
+.clearFix:after{
+	clear:both;
+	display:block;
+	visibility:hidden;
+	height:0;
+	line-height:0;
+	content:"";
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="gb2312" >
+		<title> 创建元素Demo_02</title>
+		<script type="text/javascript">
+			window.onload = function (){
+				var oUl = document.getElementById('ul1');
+				var oTxt = document.getElementsByTagName('input')[0];
+				var oBtn = document.getElementsByTagName('input')[1];
+
+				//设置文字到li
+				oBtn.onclick = function (){
+					var oLi = document.createElement('li');
+					oLi.innerHTML = oTxt.value;
+					oUl.appendChild(oLi);
+					oTxt.value = null;   //清除输入框中的文字
+				};
+			};
+		</script>
+	</head>
+	<body>
+		<input type="text" />
+		<input type="button" value="设置Li" />
+		<ul id="ul1">
+			
+		</ul>
+	</body>
+</html>

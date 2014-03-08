@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<title>秒数的转换</title>
+<script type="text/javascript">
+//秒数的转换计算
+window.onload = function (){
+	var oTxt = document.getElementsByTagName('input')[0];
+	var oBtn = document.getElementsByTagName('input')[1];
+
+	oBtn.onclick = function (){
+		alert('计算结果：'+ parseInt(oTxt.value) / 60 + '分' + parseInt(oTxt.value) % 60 + '秒');
+	};
+};
+
+</script>
+</head>
+<body>
+	<h3>秒数的转换</h3>
+	<input type="text" />
+	<input type="button" value="计算" />
+</body>
+<html>

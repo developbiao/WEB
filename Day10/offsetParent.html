@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meat http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>offsetParent</title>
+	<style type="text/css">
+	#div1 {width:200px; height:200px; background:#CCC; margin:100px; }
+	#div2 {width:100px; height:100px; background:red; position:absolute; left:50px; top:50px;}
+	</style>
+	<script type="text/javascript">
+
+	window.onload = function () {
+		var oDiv2 = document.getElementById('div2');
+		alert(oDiv2.offsetParent);
+	};
+
+	</script>
+</head>
+<body>
+	<div id="div1">
+		<div id="div2"> </div>
+	</div>
+</body>
+</html>

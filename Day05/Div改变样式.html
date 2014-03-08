@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meat http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+<meta Charset="utf-8" />
+<title>Div改变样式</title>
+<style type="text/css">
+#div1 {
+	width:200px;
+	height:200px;
+	background:red;
+}
+</style>
+<script type="text/JavaScript">
+function setStyle(name, value){
+	var oDiv = document.getElementById('div1');
+	oDiv.style[name] = value;
+}
+</script>
+</head>
+<body>
+	<input type="button" value="变宽" onclick="setStyle('width', '400px')" />
+	<input type="button" value="变高" onclick="setStyle('height', '400px')" />
+	<input type="button" value="变绿" onclick="setStyle('background', 'green')" />
+	<div id="div1">
+		Change
+	</div>
+</body>
+</html>

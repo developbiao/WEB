@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+	<title>Div的显示和隐藏</title>
+	<style type="text/css">
+	#div1 {
+		width:100px;
+		height:200px;
+		background:#CCC;
+		display:none;
+	}
+
+	</style>
+	<script type="text/JavaScript">
+	function showHide(){
+		var oDiv = document.getElementById('div1');
+
+		if(oDiv.style.display=='block'){
+			oDiv.style.display='none';
+		}
+		else{
+			oDiv.style.display='block';
+		}
+		//alert('测试中');
+	}
+	</script>
+</head>
+<body>
+	<p>菜单下拉的样式</p>
+	<input type="button" value="HideDsipaly" onclick="showHide()" />
+	<div id="div1">
+		<span> <a href="javascript:alert('Open...')">打开网站</a><span>
+	</div>
+</body>
+</html>

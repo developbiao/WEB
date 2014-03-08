@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- 
+	@Date:2014/03/06
+	@Discribe:表格的基本操作Demo_02表格的添加删除
+	@Author:GongBiao
+-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title> 表格Demo_02</title>
+	<script type="text/javascript">
+	window.onload = function (){
+
+		var oTab = document.getElementById('tab1');
+
+		var oBtn = document.getElementsByTagName('input')[2];
+		var oName = document.getElementById('name');
+		var oAge = document.getElementById('age');
+
+		//debugger;
+
+		oBtn.onclick = function (){
+			
+			var oTr = document.createElement('tr');
+
+			var oTd = document.createElement('td');
+			oTd.innerHTML = oTab.tBodies[0].rows.length + 1;
+			oTr.appendChild(oTd);
+
+			var oTd = document.createElement('td');
+			oTd.innerHTML = oName.value;
+			oTr.appendChild(oTd);
+
+			var oTd = document.createElement('td');
+			oTd.innerHTML = oAge.value;
+			oTr.appendChild(oTd);
+
+			// 添加到tBodies
+			oTab.tBodies[0].appendChild(oTr);
+
+			//添加删除操作
+			var oTd = document.createElement('td');
+			oTd.innerHTML = '<a href="javascript:;">删除</a>';
+			oTr.appendChild(oTd);
+
+			oTd.getElementsByTagName('a')[0].onclick = function (){
+
+				oTab.tBodies[0].removeChild(this.parentNode.parentNode);
+			};
+
+			oTab.tBodies[0].appendChild(oTr);
+		};
+
+	};
+	</script>
+</head>
+<body>
+	姓名： <input id="name" type="text" />
+	年龄:  <input id="age" type="text" />
+	<input type="button" value="添加" />
+	<table id="tab1" width="500px"; border="1px">
+		<thead>
+			<td>ID</td>
+			<td>姓名</td>
+			<td>年龄</td>
+			<td>操作</td>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>小白菜</td>
+				<td>19</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>李骏</td>
+				<td>22</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>小明</td>
+				<td>28</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Jokey</td>
+				<td>17</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>刘洋 </td>
+				<td>18</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

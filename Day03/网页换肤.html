@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+	<title>网页换肤</title>
+	<link id="l1" rel="stylesheet" type="text/css" href="./css/css1.css" />
+	<script type="text/JavaScript">
+	function skin1(){
+		var oLink = document.getElementById('l1');
+		oLink.href='./css/css1.css';
+	}
+	/*sink2*/
+	function skin2(){
+		var oLink = document.getElementById('l1');
+		oLink.href='./css/css2.css';
+	}
+	function skin3(){
+		var oLink = document.getElementById('l1');
+		oLink.href='./css/css3.css';
+	}
+	</script>
+<head>
+<body>
+	<input type="button" value="皮肤1" onclick="skin1()" />
+	<input type="button" value="皮肤2" onclick="skin2()" />
+	<input type="button" value="皮肤3" onclick="skin3()" />
+<body>
+</html>
