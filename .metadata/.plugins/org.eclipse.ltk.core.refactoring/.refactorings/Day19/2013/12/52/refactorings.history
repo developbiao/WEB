@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;api.Extends.ExtendsDemo_01&apos; to &apos;BlockDemo&apos;&#x0D;&#x0A;- Original project: &apos;Day19&apos;&#x0D;&#x0A;- Original element: &apos;api.Extends.ExtendsDemo_01&apos;&#x0D;&#x0A;- Renamed element: &apos;api.Extends.BlockDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ExtendsDemo_01&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;api.Extends{ExtendsDemo_01.java[ExtendsDemo_01" matchStrategy="1" name="BlockDemo" qualified="false" references="true" similarDeclarations="false" stamp="1388236085884" textual="false" version="1.0"/>
+</session>

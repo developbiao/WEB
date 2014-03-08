@@ -1,0 +1,26 @@
+package day16.practice;
+
+public class StringDemo1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "this is my book";
+		String str2 = "my name is gongbiao";
+		
+		char ch =str2.charAt(3);
+		String str3 = str2.toUpperCase();
+		
+		System.out.println(str3);
+
+	
+		System.out.println(ch);
+		
+		
+		
+		
+	}
+
+}

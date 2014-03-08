@@ -1,0 +1,19 @@
+/**
+ * @Date:2014/03/07
+ * @Discribe:String类的方法练习04
+ * @Author:GongBiao
+ */
+package learn.base_01;
+
+public class StringDemo_04 {
+	public static void main(String[] args){
+		String s = "Welcome to Java World!";
+		System.out.println(s.startsWith("Welcome"));  //ture;
+		System.out.println(s.endsWith("World"));  //false
+		
+		String str1 = "ABCDEFG";
+		System.out.println(str1.toLowerCase());
+		
+		System.out.println("is ok !");
+	}
+}

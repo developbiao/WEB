@@ -1,0 +1,18 @@
+package day16.practice;
+
+public class StringDemo1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "this is my book";
+		String str2 = "my name is gongbiao";
+		int index = str1.indexOf("book");
+		
+		System.out.println(index);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+/**
+ * @Date:2014/03/07
+ * @Discribe:String类练习_02
+ * @Author:GongBiao
+ */
+package learn.base_01;
+
+public class StringDemo_02 {
+	
+	public static void main(String[] args){
+		
+		String s1 =  "sun java";
+		String s2 = "sun Java";
+		System.out.println(s1.charAt(2));    //out put is n
+		System.out.println(s2.length());  //获取长度
+		System.out.println(s1.indexOf("java"));
+		
+		System.out.println("is ok !");
+	}
+
+}

@@ -1,0 +1,36 @@
+package day16.practice;
+
+public class StringDemo1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String text = "this is my book ,my name is gongbiao"
+					+ "I love you linux becacue this is my love";
+		String str1 = "like";
+		
+		String names = "zhangshan ,wanger, sjun";   //Ãû×ÖµÄ·Ö¸î
+		String namec[] = names.split(",");
+		for (int i=0; i<namec.length; i++){
+				System.out.println(namec[i]);
+			
+		}
+		
+		
+		String str2 = text.replace("love",str1);  //×Ö·û´®µÄÌæ»»
+		text = "   a     b   c";
+		
+		String str3 = text.trim();
+		System.out.println(str3);
+	
+		
+		
+		
+		
+		
+		
+	}
+
+}

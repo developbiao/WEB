@@ -1,0 +1,19 @@
+/**
+ * @Date:2014/03/07
+ * @Discribe:String¿‡¡∑œ∞_02
+ * @Author:GongBiao
+ */
+package learn.base_01;
+
+public class StringDemo_02 {
+	
+	public static void main(String[] args){
+		
+		String s1 =  "sun java";
+		String s2 = "sun Java";
+		System.out.println(s1.charAt(2));
+		
+		System.out.println("is ok !");
+	}
+
+}

@@ -1,0 +1,17 @@
+package day16.practice;
+
+public class StringDemo1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "abcd";
+		String str2 = "abcd";
+		System.out.println("Demo Practice is run!");
+		System.out.println(str1 == str2);
+
+	}
+
+}

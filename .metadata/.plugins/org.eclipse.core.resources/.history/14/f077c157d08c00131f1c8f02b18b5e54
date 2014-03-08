@@ -1,0 +1,29 @@
+/**
+ * @Discribe:Copy图片的测试
+ * @Author:GongBiao
+ * @Date:2014/02/03
+ */
+package api.p3.bytecopy.test;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class CopyPicTest_01 {
+	
+	public static void main(String[] args){
+		
+		System.out.println("is ok !");
+	}
+	
+	//以字符流方式Copy图片测试
+	
+	public static void CopyPic_01() throws IOException{
+		
+		FileReader fr = new FileReader("temp\\");
+		FileWriter fw = new FileWriter("temp\\copy_pic01.jpg");
+		
+	}
+
+}

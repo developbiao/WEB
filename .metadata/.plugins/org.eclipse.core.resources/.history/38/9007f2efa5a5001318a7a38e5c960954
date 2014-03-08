@@ -1,0 +1,19 @@
+/**
+ * @Date:2014/03/07
+ * @Discribe:String的split方法使用
+ * @Author:GongBiao
+ */
+package learn.base_01;
+
+public class StringSplitDemo {
+	
+	public static void main(String[] args){
+		
+		int j = 1234567;
+		String sNumber = String.valueOf(j);
+		System.out.println("j 是" + sNumber.length() + "位数");
+		
+		System.out.println("is ok !");
+	}
+
+}
