@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+	<title>变化矩形</title>
+	<style type="text/css">
+	#div1 {
+		width:200px;
+		height:200px;
+		border:2px solid black;
+	}
+	</style>
+	<script type="text/JavaScript">
+	function ChangeRectangle(name,color){
+		var oDiv = document.getElementById('div1');
+		oDiv.style[name]='300px';
+		//oDiv.style.width='300px';
+		alert('Excete:01');
+
+	}
+	</script>
+</head>
+<body>
+	<input type="button" value="变化矩形" onclick="ChangeRectangle('width','border')" />
+	<input type="button" value="变长" onclick="ChangeRectangle('height','border')" />
+	<div id="div1">
+	</div>
+</body>
+</html>

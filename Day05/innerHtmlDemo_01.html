@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+	<title>innerHtml</title>
+	<script type="text/JavaScript">
+	window.onload = function () {
+		//alert('ok1');
+		var oTxt = document.getElementsByTagName('input')[0];
+		var oBtn = document.getElementsByTagName('input')[1];
+		var oDiv = document.getElementById('div1');
+		//alert('ok2');
+
+		oBtn.onclick = function () {
+			oDiv.innerHTML = oTxt.value;
+			//alert(oDiv.innerHTML);
+		};
+
+		//alert('ok3');
+	};
+	</script>
+</head>
+<body>
+	<div id="div1">
+		<input type="text" />
+		<input type="button" value="设置文字" />
+	</div>
+</body>
+</html>

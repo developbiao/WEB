@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<meta charet="utf-8">
+	<title>数码时钟1</title>
+	<script type="text/javascript">
+	window.onload = function (){
+		var aImg = document.getElementsByTagName('img');
+		var str = '143355';
+
+		for(var i=0; i<str.length; i++){
+
+			aImg[i].src = 'img/' + str[i] + '.png'
+		}
+	};
+	</script>
+</head>
+<body style="background:black; color: white; font-size:50px">
+	<img src="./img/0.png" />
+	<img src="./img/0.png" />
+	:
+	<img src="./img/0.png" />
+	<img src="./img/0.png" />
+	:
+	<img src="./img/0.png" />
+	<img src="./img/0.png" />
+</body>
+</html>

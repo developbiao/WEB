@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavascriptIfDemo1</title>
+		<style type="text/css">
+			#div1 {
+				width:100px; height:200px; background:#ccc; display:none;
+			}
+		</style>
+		<script type="javascript">
+			function showHide()
+				{
+					var oDiv=document.getElementById('div1');
+					if(oDiv.style.display=='block')
+					{
+						oDiv.style.display='none';
+					}
+					else
+					{
+						oDiv.style.display='block';
+					}
+				}
+
+		</script>
+	</head>
+	<body>
+		<input type="button" value="ÏÔÊ¾Òþ²Ø" onclick="showHide()" />
+		<div id="div1">
+		</div>
+
+	</body>
+</html>

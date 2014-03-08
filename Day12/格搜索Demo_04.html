@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- 
+	@Date:2014/03/07
+	@Discribe:表的搜索Demo_04  操作多行数据
+	@Author:GongBiao
+-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title> 表格搜索Demo_04</title>
+	<script type="text/javascript">
+	window.onload = function (){
+
+		var oTab = document.getElementById('tab1');
+		var oTxt = document.getElementById('name');
+		var oBtn = document.getElementById('btn1');
+
+		//alert('Hello Moto~');
+
+		oBtn.onclick = function (){
+			for (var i = 0; i < oTab.tBodies[0].rows.length; i++){
+				var sTab = oTab.tBodies[0].rows[i].cells[1].innerHTML.toLowerCase();
+				var sTxt = oTxt.value.toLowerCase();
+
+				var arr = sTxt.split(' ');  //split Demo
+
+				oTab.tBodies[0].rows[i].style.background = '';
+
+				for (var j = 0; j < arr.length; j ++){
+					if (sTab.search(arr[j]) != -1 ){
+						oTab.tBodies[0].rows[i].style.background = 'red';
+					}
+				}
+
+			}
+		}
+	};
+	</script>
+</head>
+<body>
+	姓名: <input type="text" id="name" />
+	<input id="btn1" type="button" value="搜索" />
+	<table id="tab1" width="500px"; border="1px">
+		<thead>
+			<td>ID</td>
+			<td>姓名</td>
+			<td>年龄</td>
+			<td>操作</td>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>xiaocai</td>
+				<td>19</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Sjun</td>
+				<td>22</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>小明</td>
+				<td>28</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Jokey</td>
+				<td>17</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>刘洋 </td>
+				<td>18</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

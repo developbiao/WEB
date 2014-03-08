@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>父节点Demo_01</title>
+	<script type="text/javascript">
+	/**
+	Date:2014/03/03
+	Discribe:获取父元素parentNode
+	Author:GongBiao
+	*/
+	window.onload = function (){
+		var oUl = document.getElementById('ul1');
+		var aLi = oUl.getElementsByTagName('li')[1];
+		alert('父节点是: ' + oUl.parentNode );
+		alert('li的父节点是:' + aLi.parentNode);
+	};
+	</script>
+</head>
+<body>
+	<ul id="ul1">
+		<li>1</li>
+		<li>2</li>
+	</ul>
+</body>
+</html>

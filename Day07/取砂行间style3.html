@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+	<title>取非行间style3</title>
+	<style type="text/css">
+	#div1 {
+		width: 200px;
+		height: 300px;
+		background: #CCC; 
+		border: 4px dashed yellow;
+	}
+	</style>
+	<script type="text/javascript">
+	//封装成getStyle方法方便调用
+	function getStyle(obj, name){
+		if(obj.currentStyle){
+			return obj.currentStyle[name];
+		}
+		else{
+			return getComputedStyle(obj, false)[name];
+		}
+
+	}
+
+	function getStylePlugs(){
+		alert('is ok !');
+		if(arguments[0].currentStyle){
+			return arguments[0].currentStyle[arguments[1]];
+		}
+		else{
+			return getComputedStyle(arguments[0], false)[arguments[1]];
+		}
+
+	}
+
+	window.onload = function (){
+		var oDiv = document.getElementById('div1');
+
+		//alert(getStyle(oDiv,'width'));
+		alert(getStylePlugs(oDiv, 'height'));
+	};
+	</script>
+</head>
+<body>
+	<div id="div1">
+	</div>
+</body>
+</html>

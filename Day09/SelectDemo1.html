@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SelectDemo1</title>
+		<meta http-equiv="content=type" type="text/html";charset="utf-8"/>
+		<script type="text/javascript">
+			window.onload=function(){
+			
+				var oBtn1=document.getElementById('btn1');  //select all
+				var oBtn2=document.getElementById('btn2'); //取消选择
+				var oBtn3=document.getElementById('btn3'); //反选
+				var oDiv=document.getElementById('div1');
+				var aCh=oDiv.document.getElementsByTagName('input');
+
+				oBtn1.onclick=function(){
+				//	aCh[3].checked=true;
+					for(var i=0; i<aCh.length; i++){
+						aCh[i].checkde=true;
+					}
+				oBtn2.onclick=function(){
+					for(var i=0; i<aCh.length; i++){
+						aCh[i].checkde=false;
+					}
+
+					for(var i=0; i<aCh.length; i++){
+						if(aCh[i].checkde==true){
+							aCh[i].checkde=false;
+						}
+						else{
+							aCh[i].checkde=true;
+						}
+					}
+				}
+
+
+				}
+			};
+		</script>
+	</head>
+	<body>
+		<input type="button" id="btn1" value="select All" />	
+		<input type="button" id="btn2" value="select Cancel" />	
+		<input type="button" id="btn3" value="select resevs" />	
+		<div id="div1">
+		<input type="checkbox"  checked /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		<input type="checkbox" /> <br>
+		</div>
+	</body>
+</html>

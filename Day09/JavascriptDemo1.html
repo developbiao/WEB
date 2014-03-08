@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>JavaScriptDmeo1</title>
+		<style type="text/css">
+			#div1{
+				width:200px; height:200px; background:red;
+			}
+		</style>
+		<script>
+			function toGreen()
+			{
+				document.getElementById('div1').style.width='300px';
+				document.getElementById('div1').style.widht='400px';
+				document.getElementById('div1').style.background='green';
+			}
+
+			function toRed()
+			{
+				document.getElementById('div1').style.widht= '300px';
+				document.getElementById('div1').style.height= '300px';
+				document.getElementById('div1').style.background = 'red';
+			}
+		</script>
+
+	</head>
+	<body>
+		<div id="div1" onmouseover="toGreen()" onmouseout="toRed()" >
+
+		</div>
+	</body>
+	
+</html>

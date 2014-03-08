@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" >
+	<meta charset="utf-8">
+	<title>取非行间样式复习01</title>
+	<style type="text/css">
+	 #div1 {
+	 	width: 500px;
+	 	height: 200px;
+	 	background: #ABCDEF;
+	 }
+	</style>
+	<script type="text/javascript">
+	window.onload = function (){
+		//var oDiv = document.getElementById('div1');
+		//var oDiv = document.getElementsByClassName('div');
+		var oDiv = document.getElementsByTagName('div')[0];
+
+		alert(getComputedStyle(oDiv, false).width);
+		alert(getComputedStyle(oDiv, false).height);
+	//	alert(getComputedStyle(oDiv, false).background);
+		//Test IE brower
+		//alert(oDiv.currentStyle.width);
+		alert(getComputedStyle(oDiv, false).background);
+
+	};
+	</script>
+</head>
+<body>
+	<div id="div1">
+		取非行间样式
+	</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+	<title>extendsStyle</title>
+	<style type="text/css">
+	/* 初始化操作*/
+	body,div,ul,li,h1{margin:0; padding:0;}
+	/*利用继承特点，将颜色，大小属性加给body,这样的话，子元素就会继承*/
+	body{
+		font-size:12px;
+		line-height:1.5;
+		color:black
+		width:500px;
+		height:500px;
+	}
+	div{
+		width:200px;
+		height:200px;
+		background:green;
+	}
+	li{
+		width:200px;
+		height:100px;
+		background:pink;
+
+	}
+	#div1{
+		width:200px;
+		height:200px;
+		background:#ccc;
+		border-top:5px solid blue;
+		border-bottom:5px dotted yellow;
+		border-right:5px dashed red;
+		margin:auto auto;
+
+
+	}
+	</style>
+</head>
+<body>
+	<div id="div1">
+
+	</div>
+
+</body>
+</html>

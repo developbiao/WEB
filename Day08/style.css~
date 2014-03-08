@@ -1,0 +1,4 @@
+p#t1{font-weight:bold}
+p#t2{font-weight:lighter}
+p#t3{font-weight:300}
+p.t4{font-variant:small-caps}

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>父节点的Demo_02</title>
+	<script type="text/javascript">
+	/**
+	Date:2014/03/03
+	Discrib:父元素的操作练习 parentNode
+	Author:GongBiao
+	*/
+	window.onload = function (){
+		var aA = document.getElementsByTagName('a');
+		for(var i=0; i<aA.length; i++){
+			aA[i].onclick = function (){
+				this.parentNode.style.display = 'none';
+			};
+		}
+
+		//做完了提示，做完了作业
+		var count;
+		for (var i=0; i<aA.length; i++){
+			if(aA[i].parentNode.style.display == 'none'){
+				count ++;
+			}
+			
+		}
+
+		if (count == aA.length){
+			alert('你的任务完成了！');
+		}
+	};
+	</script>
+</head>
+<body>
+	<h3>你有下的任务需要完成</h3>
+	<ul>
+		<li>去做作业了<a href="javascript:;">隐藏 </a></li>
+		<li>你妈叫你回家吃饭<a href="javascript:;">隐藏 </a></li>
+		<li>去上课<a href="javascript:;">隐藏 </a></li>
+		<li>学习Git了<a href="javascript:;">隐藏 </a></li>
+		<li>看视频<a href="javascript:;">隐藏 </a></li>
+		<li>写代码了<a href="javascript:;">隐藏 </a></li>
+	</ul>
+</body>
+</html>

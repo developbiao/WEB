@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+		<title>两个数相加</title>
+		<script type="text/javascript">
+		window.onload = function (){
+			var oTxt1 = document.getElementById('Txt1');
+			var oTxt2 = document.getElementById('Txt2');
+			var oTxt3 = document.getElementById('Txt3');
+			var oBtn = document.getElementById('btn1');
+
+			oBtn.onclick = function (){
+				var number1 = parseInt(oTxt1.value);
+				var number2 = parseInt(oTxt2.value);
+
+				if(isNaN(number1)){  
+					alert('你输入的第一个数不正确！');
+				}
+				else if(isNaN(number2)){
+					alert('你输入的第二个数不正确!');
+				}
+
+				else{
+
+					var sum = number1 + number2;
+				//alert(sum);
+
+				oTxt3.value = sum; 
+			}
+
+				//alert(parseInt(oTxt1.value) + parseInt(oTxt2.value));
+				//oTxt3.value  = parseInt(oTxt1.value) + parseInt(oTxt1.value);
+			};
+
+		};
+		</script>
+	</head>
+	<body>
+		<input type="text" id="Txt1" /> +
+		<input type="text" id="Txt2" />
+		<input type="button" id="btn1" value = "="/>
+		<input type="text" id="Txt3" />
+	</body>
+</html>

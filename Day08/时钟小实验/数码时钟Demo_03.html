@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<meta charet="utf-8">
+	<title>数码时钟3</title>
+	<script type="text/javascript">
+	//处理位数函数
+	function toDou(n){
+
+		if(n<10){
+			return '0' + n;
+		}
+		else{
+			return '' + n;
+		}
+
+	}
+	window.onload = function (){
+		var aImg = document.getElementsByTagName('img');
+		function tick(){
+		var oDate = new Date();  //时间对象
+		var str = toDou(oDate.getHours()) + toDou(oDate.getMinutes()) + toDou(oDate.getSeconds());
+		//alert(str);
+		for(var i=0; i<str.length; i++){
+
+			aImg[i].src = 'img/' + str[i] + '.png';
+			//aImg[i].src = 'img/' + str.charAt(i) + '.png';   //解决了兼容性的问题   
+		}
+	}
+		setInterval(tick, 1000);  //1 minutes flush;
+		tick();  //一加载的时候就flush
+	};
+	</script>
+</head>
+<body style="background:black; color: white; font-size:50px">
+	<img src="./img/0.png" />
+	<img src="./img/0.png" />
+	:
+	<img src="./img/0.png" />
+	<img src="./img/0.png" />
+	:
+	<img src="./img/0.png" />
+	<img src="./img/0.png" />
+</body>
+</html>

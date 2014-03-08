@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" >
+		<title>元素的插入Demo_01</title>
+		<script type="text/javascript">
+			window.onload = function (){
+				var oUl = document.getElementById('ul1');
+				var oBtn = document.getElementsByTagName('input')[0];
+				oBtn.onclick = function (){
+					var oLi = document.createElement('li');
+				       oUl.appendChild(oLi);	
+				}
+
+
+			};
+
+		</script>
+	</head>
+	<body>
+		<input type="button" value="创建元素li" />
+		<ul id="ul1">
+		</ul>
+	</body>
+</html>
+

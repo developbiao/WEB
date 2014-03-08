@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8" >
+<title>argumentsDemo_02</title>
+<script type="text/javascript">
+function rege(){
+	var result = 0;
+	for(var i=0; i<arguments.length; i++){
+
+		result += arguments[i];
+
+	}
+	alert('参数长度:' + arguments.length);
+	return result;
+
+}
+
+var number = rege(11, 33, 78, 91, 21, 73);
+alert(number);
+
+</script>
+</head>
+<body>
+	<h3> 可变参数计算乘积</h3>
+</body>
+</html>

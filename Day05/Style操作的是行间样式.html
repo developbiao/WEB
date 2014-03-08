@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+		<title>Style操作的是行间样式</title>
+		<style type="text/css">
+		#div1 {
+			width:200px;
+			height:200px;
+			border:1px solid black;
+			float:left;
+			background:red;
+		}
+		</style>
+		<script type="text/JavaScript">
+		//Style操作的是行间样式无论是读还是写
+		function toRed(){
+			var oDiv = document.getElementById('div1');
+			oDiv.style.background='red';
+			alert(oDiv.style.background);
+		}
+		</script>
+	</head>
+	<body>
+		<input type="button" value="变红" onclick="toRed()" />
+		<div id="div1">
+			hello!
+		</div>
+
+	</body>
+</html>

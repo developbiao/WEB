@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>运动基础</title>
+	<style type="text/css">
+	#div1 {
+		width:200px;
+		height:200px;
+		background:red;
+		position:absolute;
+		left:0px;
+		top:50px;
+	}
+	</style>
+	<script type="text/javascript">
+		setInterval(function () {
+			oDiv = document.getElementById('div1');
+			oDiv.style.left = oDiv.offsetLeft + 10 + 'px';
+		}, 30);
+	</script>
+</head>
+<body>
+	<div id="div1">
+	</div>
+</body>
+</html>

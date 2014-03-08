@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" Content="text/html"; charset="utf-8" />
+<title> 选项卡Demo1</title>
+<style type="text/css">
+#div1 .active {background:yellow;}
+#div1 div {
+	width:200px;
+	height:200px;
+	border:1px solid #999;
+	background:#CCC;
+	display:none;
+}
+</style>
+<script type="text/JavaScript">
+window.onload=function ()
+{
+	var oDiv=document.getElementById('div1');
+	var aBtn=oDiv.getElementsByTagName('input');
+	var aDiv=oDiv.getElementsByTagName('div');
+	
+	for(var i=0;i<aBtn.length;i++)
+	{
+		aBtn[i].index=i;
+		aBtn[i].onclick=function ()
+		{
+			for(var i=0;i<aBtn.length;i++)
+			{
+				aBtn[i].className='';
+				aDiv[i].style.display='none';
+			}
+			this.className='active';
+			//alert(this.index);
+			aDiv[this.index].style.display='block';
+		};
+	}
+};
+</script>
+</head>
+<body>
+	<div id="div1">
+		<input class="active" type="button" value="教育" />
+		<input type="button" value="培训" />
+		<input type="button" value="招生" />
+		<input type="button" value="出国" />
+		<div style="display=block"> 11111 </div>
+		<div> 22222 </div>
+		<div> 33333 </div>
+		<div> 44444 </div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Swap skin </title>
+		<link id="k1" rel="stylesheet" type="text/css" href="./css2/css"/>
+		<script type="text/javascript">
+			function skin1()
+				{
+					var oL = document.getElementById('k1');
+					oL.href="./css1.css";
+				}
+			function skin2()
+				{
+					var oL=document.getElementById('k1');
+					oL.href="./css2.css";
+				
+				}
+
+			function change()
+				{
+					var ch = document.getElementById('c1');
+					ch.value="this. is my linux";
+				} </script>
+	</head>
+	<body>
+		<input type="button" value="skin1" oncilck="skin1()"/>
+		<input type="button" value="skin2" onclick="skin2()"/>
+		
+	</body>
+</html>
