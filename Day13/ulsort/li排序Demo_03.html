@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>li排序Demo_03</title>
+	<style type="text/css">
+	#ul1 {background: #ABCDEF;}
+	</style>
+	<script type="text/javascript">
+	window.onload = function (){
+		var oUl = document.getElementById('ul1');
+		var oBtn = document.getElementById('btn1');
+
+		oBtn.onclick = function (){
+			var oLi = oUl.children[0];
+
+			oUl.appendChild(oLi);
+		};
+
+		function method1(){
+
+			var oLi = oUl.children[0];
+			oUl.appendChild(oLi);
+
+		}
+
+		setInterval(method1, 1000);
+	};
+	</script>
+</head>
+<body>
+	<input id="btn1" type="button" value="append" />
+	<ul id="ul1">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>0</li>
+	</ul>
+</body>
+</html>
