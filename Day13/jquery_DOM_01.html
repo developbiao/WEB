@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>JqueryDOM01</title>
+	<script src=".\jquery\jquery-1.7.1.min.js" type="text/javascript" >
+	</script>
+	<script type="text/javascript">
+	window.onload = function (){
+		alert("onload");
+		var jQ = $("#msgDiv");
+		jQ.text("HOHO~~~~~").slideUp(1000);  //上slideup效果
+
+	};
+
+
+//当页面dom树生成之后,外部资源共享加载之前
+$(document).ready(function (){
+	$("#btnLogin").click(function (){
+		jQ2Demo();
+	});
+
+	//jQuery对象转DOM对象
+	function jQ2Demo(){
+		var $divs = $("div");
+		alert($divs.length);
+	}
+});
+	</script>
+</head>
+<body>
+	<input type="button" id="btnLogin" value="登录" />
+	<div id="msgDiv">
+		<span> span 标签</span>
+	</div>
+	<div id="Div1">
+		我正在学习jQuery的应用,我是WEB工程师~~~
+	</div>
+	<img src="./images/pic01.jpg"  style="width:600px; height:300px"/>
+</body>
+</html>
