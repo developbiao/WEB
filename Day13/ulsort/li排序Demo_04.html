@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!--
+@Discribe: LI排序练习
+@Date:2014/03/10  21:14
+@Author:GongBiao
+-->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>Li排序Demo_4</title> 
+	<style type="text/css">
+	#ul1{
+		background:#ABCDEF;
+	}
+	</style>
+	<script type="text/javascript">
+	window.onload = function (){
+		var oUl = document.getElementById('ul1');
+		var oBtn = document.getElementById('btn1');
+
+		var aLi = oUl.getElementsByTagName('li');
+		for (var i = 0; i < aLi.length; i++){
+
+			if (i % 2){
+				aLi[i].style.background = 'red';
+			}
+			else
+				aLi[i]['style']['background'] = '#CCC';
+
+		}
+
+
+		oBtn.onclick = function (){
+			var aLi = oUl.getElementsByTagName('li');
+			var arr = [];
+
+			for (var i = 0; i< aLi.length; i++){
+				arr[i] = aLi[i];
+			}
+
+			arr.sort(function (li1, li2){
+				var n1 = parseInt(li1.innerHTML);
+				var n2 = parseInt(li2.innerHTML);
+
+				return n1 - n2;
+			});
+
+			//装入到数组里面
+			for (var i = 0; i < arr.length; i++){
+				//alert('该把' + arr[i].innerHTML + '插入到最后');
+				oUl.appendChild(arr[i]);
+			}
+
+		};
+	};
+	</script>
+</head>
+<body>
+	<input id="btn1" type="button" value="sort" />
+	<ul id="ul1">
+		<li>23</li>
+		<li>11</li>
+		<li>43</li>
+		<li>27</li>
+		<li>33</li>
+		<li>35</li>
+		<li>13</li>
+	</ul>
+</body>
+</html>
