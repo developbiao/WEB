@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<!-- 
+	@Date:2014/03/12
+	@Discribe:运动基础练习03
+	@Author:GongBiao
+-->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>运动基础练习03</title>
+	<style type="text/css">
+	#div1 {width:200px; height:200px; background:red; position:absolute; top:50px; left:0px;}
+	</style>
+	<script type="text/javascript">
+	var timer = null
+
+	function startMove(){
+		var oDiv = document.getElementById('div1');
+		timer = setInterval(function (){
+			if (oDiv.offsetLeft >= 300){
+				clearInterval(timer);
+			}
+			else{
+			oDiv.style.left = oDiv.offsetLeft + 10  + 'px';
+		}
+		}, 30);
+	}
+	</script>
+</head>
+<body>
+	<input type="button" id="btn1" value="Start" onclick = "startMove()" />
+	<div id="div1">
+	</div>
+</body>
+</html>
