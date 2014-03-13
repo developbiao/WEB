@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!-- 
+	@Date:2014/03/13
+	@Discribe:方法的封装
+	@Author:GongBaio
+-->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html" content="text/html"; charset="utf-8" >
+	<title>分享到按钮03</title>
+	<link href="./share.css" media="all" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+	window.onload = function (){
+		var oDiv = documen.getElementById('div1');
+
+		oDiv.onmouseover = function (){
+
+		};
+
+		oDiv.onmouseout = function (){
+
+		};
+	};
+
+	var timer = null;
+	function startMove(iTarget){
+
+		var oDiv = document.getElementById('div1');
+		timer = clearInterval(timer);
+		var speed = 0;  //速度
+
+		if (oDiv.offsetLeft > iTarget){
+			speed = -10;
+		}
+		else{
+			speed = 10;
+		}
+
+		if (oDiv.offsetLeft == iTarget){
+			clearInterval(timer);
+		}
+		else{
+			oDiv.style.left = oDiv.offetLeft + speed + 'px';
+		}
+
+	}
+	</script>
+</head>
+<body>
+	<div id="div1">
+		<span>分享到空间</span>
+	</div>
+</body>
+</html>
