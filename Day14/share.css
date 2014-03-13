@@ -1,0 +1,8 @@
+/**
+@Date:2014/03/13
+@Discribe:slipe css
+@Author:GongBiao
+*/
+
+#div1 {width:150px; height:200px; background:green; position:absolute; left:-150px;}
+#div1 span {position:absolute; width:20px; height:60px; line-height:20px; background:yellow; right:-20; top:70px;}
