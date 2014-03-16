@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<!-- 
+	@Date:2014/03/14
+	@Discribe:JavaScript学习淡放淡出
+	@Authro:GongBiao
+-->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>淡入淡出01</title>
+	<style type="text/css">
+	#div1 {width:200px; height:200px; background:red; filter:alpha(opacity:30); opacity:0.3;}
+	</style>
+	<script type="text/javascript">
+	window.onload = function (){
+
+		var oDiv = document.getElementById('div1');
+
+		oDiv.onmouseover = function (){
+			startMove(100);
+		};
+		oDiv.onmouseout = function (){
+			startMove(30);
+		};
+
+	};
+
+	var alpha = 30;
+	var timer = null;
+
+	function startMove(iTarget){
+		var oDiv = document.getElementById('div1');
+		clearInterval(timer);
+		timer = setInterval(function (){
+			var speed = 0;
+
+			if (alpha < iTarget){
+				speed = 10;
+			}
+			else {
+				speed = -10;
+			}
+			if (alpha == iTarget){
+				clearInterval(timer);
+			}
+			else {
+				alpha += speed;
+
+				oDiv.style.filter = 'alpha(opacity:'+ alpha +')';  //IE兼容处理
+				oDiv.style.opacity = alpha / 100;   //Firefox Chrome 标准
+			}
+			//document.write('value:' + alpha);
+		}, 30);
+	}
+	</script>
+</head>
+<body>
+	<div id="div1">
+		HRE!
+	</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type"; content="text/html"; charset="utf-8" />
+	<title>缓冲运动练习02</title>
+	<style type="text/css">
+	#div1 {width:100px; height:100px; background:red; position:absolute; left:0; top:50px;}
+	#div2 {width:1px; height:300px; position:absolute; left:600px; top:0px; background:black;}
+	</style>
+	<script type="text/javascript">
+	function startMove(){
+		var oDiv = document.getElementById('div1');
+		setInterval(function (){
+			var speed = (600 - oDiv.offsetLeft) / 10;
+			speed = Math.ceil(speed);
+
+			oDiv.style.left = oDiv.offsetLeft + speed + 'px';
+
+			document.title = oDiv.offsetLeft + ',' + speed;
+		}, 30);
+	}
+	</script>
+</head>
+<body>
+	<input type="button" value="StartMove" onclick="startMove()" />
+	<div id="div1">
+	</div>
+	<div id="div2">
+	</div>
+</body>
+</html>
