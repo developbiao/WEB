@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>右侧悬浮框01</title>
+	<style type="text/css">
+	#div1 {width:100px; height:150px; background:red; position:absolute; right:0px; bottom:0px;}
+	</style>
+	<script type="text/javascript">
+	window.onscroll = function (){
+		var oDiv = document.getElementById('div1');
+		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+		oDiv.style.top = document.documentElement.clientHeight - oDiv.offsetHeight + scrollTop + 'px'; //做了兼容的处理
+
+		//alert(scrollTop);
+		//document.write(scrollTop);
+		document.title = scrollTop
+	};
+	</script>
+</head>
+<body style="height:2000px">
+	<div id="div1">
+	</div>
+</body>
+</html>
