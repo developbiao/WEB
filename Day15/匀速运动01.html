@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<!-- 
+	@Date:2014/03/17
+	@Discribe：匀速运动练习01
+	@Author:GongBiao
+-->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>匀速运动01</title>
+	<style type="text/css">
+	#div1 {width:100px; height:100px; background:red; position:absolute; left:600px; top:50px;}
+	#div2 {width:1px; height:300px; position:absolute; left:300px; top:0px; background:black;}
+	#div3 {width:1px; height:300px; position:absolute; left:100px; top:0px; background:black;}
+	</style>
+	<script type="text/javascript">
+	var timer = null;
+	function startMove (iTarget){
+		var oDiv = document.getElementById('div1');
+
+		clearInterval(timer);
+		timer = setInterval(function (){
+			var speed = 0;
+
+			if (oDiv.offsetLeft < iTarget){
+				speed  = 7;
+			}
+			else {
+				speed = -7;
+			}
+
+			if (Math.abs(iTarget - oDiv.offsetLeft) <= 7){
+				clearInterval(timer);
+				oDiv.style.left = iTarget + 'px';   //只目标小于等于7就置为到了目标
+			}
+			else{
+
+			oDiv.style.left = oDiv.offsetLeft + speed + 'px';
+			}
+		}, 30);
+	}
+	</script>
+</head>
+<body>
+	<input type="button" value="到100" onclick="startMove(100)" />
+	<input type="button" value="到300" onclick="startMove(300)" />
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3"></div>
+</body>
+</html>
