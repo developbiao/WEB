@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>匀速运动练习02</title>
+	<style type="text/css">
+	#div1 {width:100px; height:100px; background:red; position:absolute; left:600px; top:50px;}
+	#div2 {width:1px; height:300px; position:absolute; left:300px; top:0px; background:black;}
+	#div3 {width:1px; height:300px; position:absolute; left:100px; top:0px; background:black;}
+	</style>
+	<script type="text/javascript">
+	var timer = null;
+
+	function startMove (iTarget){
+
+		var oDiv = document.getElementById('div1');
+
+		clearInterval(timer);
+		timer = setInterval(function (){
+			var speed = 0;
+
+			if (oDiv.offsetLeft < iTarget){
+				speed = 7;
+			}
+			else {
+				speed = -7;
+			}
+
+			if (Math.abs(iTarget - oDiv.offsetLeft) <= 7){
+				clearInterval(timer);
+				oDiv.style.left = iTarget + 'px';
+			}
+			else{
+			oDiv.style.left = oDiv.offsetLeft  + speed + 'px';
+			}
+		}, 30);
+		alert('安全着陆!');
+	}
+	</script>
+</head>
+<body>
+	<input type="button" value="到100" onclick="startMove(300)" />
+	<input type="button" value="到300" onclick="startMove(100)" />
+	<div id="div1">
+	</div>
+	<div id="div2">
+	</div>
+	<div id="div3">
+	</div>
+</body>
+</html>
