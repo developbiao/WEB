@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@Describe:鞋子的尺寸
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="shoeSize">
+
+	<xs:complexType>
+		<xs:simpleContent>
+			<xs:extension base="xs:decimal">
+			
+				<xs:attribute name="sizing" use="required">
+				
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							
+							<xs:enumeration value="us"></xs:enumeration>
+							<xs:enumeration value="europe"></xs:enumeration>
+							<xs:enumeration value="uk"></xs:enumeration
+							>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+</xs:element>
+</xs:schema>

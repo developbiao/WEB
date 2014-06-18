@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schema/pets_sh2.xsd">
+	<cat>miao miao</cat>
+	<dog>xiao hang</dog>
+	<mill>牛儿</mill>
+	<count>17</count>
+</pets>

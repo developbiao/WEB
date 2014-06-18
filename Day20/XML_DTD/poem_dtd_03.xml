@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE poem [
+	<!ELEMENT poem (author+, title*, content?)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT content (#PCDATA)>
+	<!ATTLIST title name CDATA #REQUIRED>
+]>
+
+<poem>
+	 <author>王维</author>
+	 <author>Wangwei</author>
+	 <title name="gongbiao">山上见人</title>
+	 <content>空山不见人,但闻人语声</content>
+</poem>
+

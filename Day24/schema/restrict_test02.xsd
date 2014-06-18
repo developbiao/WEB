@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="enum">
+		<xs:restriction base="xs:integer">
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="6"/>
+			<xs:enumeration value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="Street" type="enum">
+	</xs:element>
+</xs:schema>

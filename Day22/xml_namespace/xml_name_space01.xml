@@ -1,0 +1,18 @@
+<!-- 
+	@Describe:xml  命名空间的使用
+	@Author:Gongbiao
+	@Date:2014/05/04
+ -->
+
+<g:table xmlns:g="http://www.google.com/table/">
+	<h:tr>
+			<h:td>Apple</h:td>
+			<h:td>Bannanas</h:td>
+	</h:tr>
+</g:table>
+
+<f:table xmlns:f="http://www.google.com/furniture/">
+	<f:name>African Coffee Table</f:name>
+	<f:width>80</f:width>
+	<f:height>120</f:height>
+</f:table>

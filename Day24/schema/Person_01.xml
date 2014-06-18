@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./group_x1.xsd">
+	<name>Gongbiao</name>
+	<birthday>1993-04-03</birthday>
+	<age>21</age>
+</person>

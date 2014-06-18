@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE company[
+<!ENTITY shangguigu "尚谷圭">
+<!ENTITY address "北京电视台">
+]
+>
+
+<company>
+	<name>&shangguigu;</name>
+	<address>&address;</address>
+	<describe>学校学IT</describe>
+</company>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<students>
+	<student>
+		<id>32</id>
+		<name>龚彪</name>
+		<address>四川省雅安市石棉县</address>
+		<describe>学习XML文件</describe>
+	</student>
+	<student>
+		<id>17</id>
+		<name>汪洋</name>
+		<address>四川省雅安市石棉县</address>
+		<describe>我中学同班同学</describe>
+	</student>
+	<student>
+		<id>13</id>
+		<name>李骏</name>
+		<address>湖南省长沙市</address>
+		<describe>306寝室室友</describe>
+		<say>哈哈</say>
+		<describe>重复的文件</describe>
+	</student>
+</students>

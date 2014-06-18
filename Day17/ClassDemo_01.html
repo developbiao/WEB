@@ -1,0 +1,43 @@
+<!--
+	@Date:2014/04/14
+	@Describe:Jquery Class Demo
+	@Author:GongBiao
+ -->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" charset="utf-8" />
+	<title>ClassDemo_01</title>
+	<style type="text/css">
+	.mydiv{border:1px solid #000; width:500px; height:200px;}
+	.mydiv2{border:20px solid #ff6600; width:500px; height:200px;}
+	.redfont{font-size:24px; color:red; font-weight:blod;}
+	</style>
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript"> </script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+	$(
+		function(){
+			var divClass = $(#"msgDiv").attr("class");
+			alert(divClass);
+		}
+		)
+	</script>
+	<script type="text/javascript">
+	$(
+		function(){
+			$("#btn").val("点击").click(function (){
+				$("#msgDiv").attr("class", "mydiv2");
+			});
+			var divClass = $("#msgDiv").attr("class");
+			alert(divClass);
+		}
+		)
+	</script>
+</head>
+<body>
+	<input type="button" id="btn"  name="Button"/>
+	<div id="msgDiv" class="mydiv">
+	</div>
+</body>
+</html>

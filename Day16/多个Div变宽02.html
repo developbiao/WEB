@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<!-- 
+	@Date:2014/03/19
+	@Discribe:多个div运动02
+	@Author:GongBiao
+-->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+	<title>多个DIV运动02</title>
+	<style type="text/css">
+	div {width:100px; height:50px; background:black; margin:10px;}
+	</style>
+	<script type="text/javascript">
+	window.onload = function (){
+		var aDiv = document.getElementsByTagName('div');
+
+		for (var i = 0; i < aDiv.length; i++){
+			aDiv[i].onmouseover = function (){
+				startMove(this, 500);
+			};
+
+			aDiv[i].onmouseout = function (){
+				startMove(this, 100);
+			};
+		}
+	};
+	var timer = null
+	function startMove (obj, iTarget){
+
+		clearInterval(timer);
+		timer = setInterval(function (){   //解决了代码的装运抖动问题
+
+			var speed = (iTarget - obj.offsetWidth) / 7;
+			speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+			if (obj.offsetWidth == iTarget){
+				clearInterval(timer);
+			}else {
+				obj.style.width = obj.offsetWidth + speed + 'px';
+			}
+		}, 30);
+
+	}
+	</script>
+</head>
+<body>
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+</body>
+</html>

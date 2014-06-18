@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" >
+	<title>多个Div淡入淡出01</title>
+	<style type="text/css">
+	div {
+		width:200px; height:200px; margin:20px; float:left; background:red; filter:alpha(opacity:30); opacity:0.3;
+	}
+	</style>
+	<script type="text/javascript">
+
+	window.onload = function (){
+		var aDiv = document.getElementsByTagName('div');
+
+		for (var i = 0; i < aDiv.length; i++){
+			//aDiv[i].timer = null;
+			aDiv[i].alpha = 30;  //对象自定义opacity   alpha
+			aDiv[i].onmouseover = function (){
+				startMove(this, 70);
+			};
+			aDiv[i].onmouseout = function (){
+				startMove(this, 30);
+			};
+		}
+	};
+
+	function startMove(obj, iTarget){
+		clearInterval(obj.timer);
+		obj.timer = setInterval(function (){
+			var speed = (iTarget - obj.alpha) / 6;  //透明度
+			speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+
+			if (obj.alpha == iTarget){
+				clearInterval(obj.timer);
+			}
+			else {
+				obj.alpha += speed;
+
+				obj.style.filter = 'alpah(opacity: '+ obj.alpha +')';
+				obj.style.opacity = obj.alpha / 100;
+			}
+		}, 30)
+	}
+	</script>
+</head>
+<body>
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+</body>
+</html>

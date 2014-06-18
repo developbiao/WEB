@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<students>
+	<student gender="male" isHandsome="true">
+		<id>37</id>
+		<name>wangxiaoer</name>
+		<address>beijing</address>
+	</student>
+	<student gender="female">
+		<id>18</id>
+		<name>汪洋</name>
+		<address>雅安市石棉县</address>
+	</student>
+</students>

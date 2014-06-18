@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:attribute name="allFrameSize">
+	
+		<xs:simpleType>
+			<xs:union memberTypes="roadbikeSize mountainbikeSize"/>
+		</xs:simpleType>
+		
+	</xs:attribute>
+	
+	<!-- SimpleType -->
+	<xs:simpleType name="roadbikeSize">  
+	
+		<xs:restriction base="xs:positiveInteger">
+			<xs:enumeration value="46"/>
+			<xs:enumeration value="88"/>
+			<xs:enumeration value="55"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="mountainbikeSize">
+	
+		<xs:restriction  base="xs:string">
+			
+			<xs:enumeration value="small"/>
+			<xs:enumeration value="medium"/>
+			<xs:enumeration value="large"/>
+			
+		</xs:restriction>
+		
+	</xs:simpleType>
+	
+	<xs:element name="hello">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="feige" type="xs:string"/>
+			</xs:sequence>
+			
+			<xs:attribute ref="allFrameSize" use="required" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

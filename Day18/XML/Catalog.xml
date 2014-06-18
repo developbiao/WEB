@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE catalog SYSTEM "catalog.dtd">
+<!-- catalog last updated 2014/04/30 -->
+<catalog>
+	<book id="bk101">
+		<author>Abercrombie, kim</author>
+		<title>XML Developer's Guide</title>
+		<genre>Computer</genre>
+		<price>44.95</price>
+		<publish_cate>2000-10-01</publish_cate>
+	</book>
+	<book id="bk109">
+		<author>Kress, Peter</author>
+		<title>Paradox Lost</title>
+		<genre>Science Fiction</genre>
+		<price>6.95</price>
+		<publish_date>2000-11-02</publish_date>
+	</book>
+</catalog>

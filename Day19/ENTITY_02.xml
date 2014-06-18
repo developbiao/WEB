@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Sudents[
+<!ENTITY class "软开1234班">
+<!ENTITY address "长沙民学院">
+]
+>
+
+<Students>
+	<Student>
+		<name>龚彪</name>
+		<id>32</id>
+		<address>&address;</address>
+		<class>&class;</class>
+	</Student>
+	<Student>
+		<name>蒋鑫</name>
+		<id>28</id>
+		<address>&address;</address>
+		<class>&class;</class>
+	</Student>
+</Students>

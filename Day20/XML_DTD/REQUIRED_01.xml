@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE 家庭[
+	<!ELEMENT 家庭 (人+)>
+	<!ELEMENT 人 EMPTY>
+	<!ATTLIST 人
+	reIID ID #REQUIRED
+	parentID IDREFS #IMPLIED
+	name CDATA #REQUIRED
+	>
+]>
+
+<家庭>
+	 <人 reIID="P_1" name="爸爸" />
+	 <人 reIID="P_2" name="妈妈" />
+	 <人 reIID="P_3" parentID="P_1 P_2" name="儿子"/>
+</家庭>

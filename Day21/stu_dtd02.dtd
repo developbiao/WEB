@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT 学生名册 (学生+)>
+<!ELEMENT 学生 (姓名, 性别, 年龄+)>
+<!ELEMENT 姓名 (#PCDATA)>
+<!ELEMENT 性别 (#PCDATA)>
+<!ELEMENT 年龄 (#PCDATA)>
+<!ATTLIST 学生 学号 ID #REQUIRED>

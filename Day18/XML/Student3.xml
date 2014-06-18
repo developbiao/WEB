@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="./css/style.css"?>
+<!-- catlog last update 2014/04/30 -->
+<students>
+	<describe gender="male" socre="good">
+		<name>龚彪</name>
+		<id>32</id>
+		<!-- 龚彪的班级 -->
+		<class>软开1234班</class>
+	</describe>
+	<describe gender="fmale">
+		<name>汪洋</name>
+		<id>18</id>
+		<class>08级一班</class>
+	</describe>
+</students>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Computer[
+<!ENTITY ATI "AITGPU">
+<!ENTITY ATI2 "ATIGPU_512M">
+<!ENTITY INTEL_1 "Core_Double2">
+<!ENTITY INTEL_I "Core_I3">
+<!ENTITY SSD320 "Saga320GB">
+<!ENTITY MEM_2 "Memero 2GB">
+<!ENTITY MEM_4 "Memero 4GB">
+<!ENTITY describe "Computed Chage the life">
+]
+>
+<Computers>
+	<![CDATA[
+	Describe:描述的是我现在的两到电脑
+	]]>
+	<HP4411S>
+		<CPU>&INTEL_1;</CPU>
+		<SSD>&SSD320;</SSD>
+		<GPU>&ATI;</GPU>
+		<MEM>&MEM_2;</MEM>
+	</HP4411S>
+	<THINKPAD>
+		<CPU>&INTEL_I;</CPU>
+		<SSD>&SSD320;</SSD>
+		<GPU>&ATI2;</GPU>
+		<MEM>&MEM_4;</MEM>
+		<DESCRIBE>&describe;</DESCRIBE>
+	</THINKPAD>
+</Computers>

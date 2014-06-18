@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+ <Student>
+	 <name>龚彪</name>
+	 <age>18</age>
+	 <id>19</id>
+	 <describe>我现在在长沙民政学院学习，软件专业，学习是一大大的坑</describe>
+ </Student>
+ <Studnet>
+	 <name>王小儿</name>
+	 <age>14</age>
+	 <describe>在山上放羊</describe>
+ </Studnet>
+</Students>

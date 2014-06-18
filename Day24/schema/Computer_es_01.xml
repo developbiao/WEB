@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myComputer cpu="Inter Core" memroy="DDR3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///F:/HTML/Practice/Day24/schema/attribute_group01.xsd">
+	<cpu>Inter Core I3</cpu>
+	<ssid>360G</ssid>
+	<memroy>4</memroy>
+</myComputer>

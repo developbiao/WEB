@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./group_x2.xsd">
+	<name>WangYang</name>
+	<brithday>1992-08-21</brithday>
+	<age>22</age>
+</person>

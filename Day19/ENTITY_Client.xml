@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Clients[
+<!ENTITY address "湖南长沙">
+<!ENTITY flags "Motorola">
+]
+>
+
+<Clients>
+
+<![CDATA[
+<h1> Hello Motorola</h1>
+<h3>Moto V3</h3>
+]]>
+	<Client>
+		<name>龚彪</name>
+		<address>四川雅安石棉</address>
+		<phone>15616214867</phone>
+		<flags>&flags;</flags>
+	</Client>
+	<Client>
+		<![CDATA[
+		这里是一个CDATA节,CDATA节只能放在根下面，不能放到文档的头部
+		]]>
+		<name>李骏</name>
+		<address>&address;</address>
+		<phone>1582342432423</phone>
+		<flags>&flags;</flags>
+	</Client>
+</Clients>

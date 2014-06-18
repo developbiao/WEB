@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="cat" type="xs:string"/>
+	<xs:element name="dog" type="xs:string"/>
+	<xs:element name="mill" type="xs:string"/>
+	<xs:element name="count" type="xs:int"/>
+	
+	<xs:complexType name="newType">
+		<xs:sequence>
+			<xs:element ref="cat"/>
+			<xs:element ref="dog"/>
+			<xs:element ref="mill"/>
+			<xs:element ref="count"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="pets" type="newType"/>
+</xs:schema>

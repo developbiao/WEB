@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:attribute name="interest" type="xs:integer"/>
+	<xs:element name="person">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="hello" type="xs:string"/>
+				<xs:element name="world" type="xs:string"/>
+			</xs:sequence>
+			<xs:attribute ref="interest" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

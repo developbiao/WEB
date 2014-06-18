@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:attributeGroup name="myAttributeGroup">
+		<xs:attribute name="memroy" type="xs:string" use="required"/>
+		<xs:attribute name="cpu" type="xs:string" use="required"/>
+	</xs:attributeGroup>
+	
+	<xs:element name="myComputer">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cpu" type="xs:string"/>
+				<xs:element name="ssid"/>
+				<xs:element name="memroy" type="xs:integer"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="myAttributeGroup"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

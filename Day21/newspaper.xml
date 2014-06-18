@@ -1,0 +1,18 @@
+<!-- NEWSPAPER INFOMAITION -->
+<!DOCTYPE NEWSPAPER SYSTEM ".\newspaper_dtd.dtd">
+<NEWSPAPER>
+	<ARTICLE AUTHOR="BIAOGE">
+		<HEADLINE> BIAOGE BOOKS</HEADLINE>
+		<BYLINE>C LANGUAGES</BYLINE>
+		<LEAD>龚彪</LEAD>
+		<BODY>Write C_Language learn power</BODY>
+		<NOTES>Ower By PowerFull</NOTES>
+	</ARTICLE>
+	<ARTICLE AUTHOR="Wangyang">
+		<HEADLINE>Good Life</HEADLINE>
+		<BYLINE>Life Sex</BYLINE>
+		<LEAD>汪洋</LEAD>
+		<BODY> make love every day join life sexs </BODY>
+		<NOTES>jokey</NOTES>
+	</ARTICLE>
+</NEWSPAPER>
